@@ -9,7 +9,7 @@ FILE_NAME = 'World_Metres.json'
 
 def telegram_bot_sendtext(bot_message):
 
-    bot_token = '1132521081:AAHht4z1Eo00E86wcIZtGqYH1CshBxnQyk8'
+    bot_token = ''
     bot_chatID = '784469586'
     send_text = 'https://api.telegram.org/bot' + bot_token + \
         '/sendMessage?chat_id=' + bot_chatID + '&parse_mode=Markdown&text=' + bot_message
